@@ -7,8 +7,6 @@
     "url": "git://github.com/narqo/bem-pr.git"
   },
   "dependencies": {
-    "phantomjs": "~1.9.1",
-    "mocha-phantomjs": "~3.5.0",
     "q": "~0.9.6",
     "q-io": "~1.10.6",
     "bem-jsd": "~1.4.0",
@@ -19,6 +17,10 @@
   },
   "devDependencies": {
     "bem": "~0.8.0"
+  },
+  "peerDependencies": {
+    "phantomjs": "~1.9.1",
+    "mocha-phantomjs": "~3.5.0"
   },
   "keywords": [
     "bem",
